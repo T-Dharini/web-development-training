@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background:white;
+    color: black;
+  }
+  
+  .app-container {
+    display: flex;
+    min-height: 100px;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background: white;
+    padding: 20px;
+    border-right: 1px solid wheat;
+  }
+  .quick-actions button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .sidebar ul {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li.active {
+    border: 1px solid skyblue;
+    width:60% ;
+    height:40px;
+    background-color: skyblue;
+    text-align: center;
+  }
+  .log{
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    margin-right: 50px;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+  }
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  } .nav-btn button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    border:1px solid cornsilk;
+    background: cornsilk;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .search-filter {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #e6d9d9;
+  }
+  .profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .explore h1 {
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .filters button {
+    margin-right: 10px;
+    padding: 6px 12px;
+    border:1px solid burlywood;
+    background: burlywood;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .product-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .p-green {
+    background: steelblue;
+    padding-top:20px;
+    padding-bottom: 30px;
+    width: 150%;
+    height: 150px;
+    text-align: center;
+    border-radius: 30px;
+  }
+  
+  .p-yellow {
+    background:yellow;
+    padding-top:20px;
+    padding-bottom: 30px;
+    color:black;
+    width: 150%;
+    height: 150px;
+    text-align: center;
+    border-radius: 30px;
+  }
+  
+  
