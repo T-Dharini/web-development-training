@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+nav{
+    display: flex;
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+    width: 70%;
+    height: 50px;
+    padding: 20px;
+    margin-left:150px;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.nl{
+display: flex;
+gap: 10px;
+}
+.main{
+    display: flex;
+    width: 70%;
+    height: 700px;
+    background-color: white;
+    margin-left: 10%;
+}
+.l{
+    width: 25%;
+    height: 700px;
+    background-color:white;
+}
+.r{
+    width: 75%;
+    height: 700px;
+    background-color: hwb(310 82% 9%);
+}
+.top{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content:space-around;   
+}
+.rect{
+    width: 50%;
+    height: 60px;
+    margin: 10px;
+    background-color:white;
+    margin-left: 40px;
+    padding-top: 50px;
+    border-radius:10px;
+}
+.bottom{
+    width: 100%;
+    height: 90%;
+}
+.b1{
+    display: flex;
+    margin:10px;
+    width:90%;
+    height: 200px;
+}
+.bb1{
+    width: 30%;
+    height: 90%;
+    margin: 10px;
+    background-color:white;
+    margin-left: 40px;
+    padding-top: 50px;
+    border-radius:10px; 
+}
+h6{
+    color: bisque;
+}
+#all{
+    background-color:orange;
+}
+#text{
+    width: 180px;
+    height: 20px;
+    border-radius: 20px;
+}
+.box{
+    width: 30px;
+    height: 20px;
+    border:5px solid orange;
+    border-radius: 9px;
+    margin-right: 10px;
+
+}
+.sc{
+    width: 100px;
+    height: 80px;
+    border: 1px solid orange;
+    border-radius:100px;
+    background-color: orange;
+}
+</style>
+<body>
+    <nav>
+        <div class="nl">
+        <div class="box"></div>
+        <input type="text" id="text" placeholder="Search"></div>
+        <div class="nb">
+            <h6>🔔</h6>
+            <h6>🎡</h6>
+            <div class="sc"></div>
+        </div>
+    </nav>
+    <div class="overall">
+        <div class="main">
+            <div class="l">
+                <h6>
+                    TYPE
+                </h6>
+                <input type="checkbox" id="all" name="all">
+                <label for="all">Sport<span style="color: grey;font-size: small;">(15)</sp></label><br><br>
+                <input type="checkbox" id="check">
+                <label for="check">SUV<span style="color: grey;font-size: small;">(10)</b></label><br><br>
+                <input type="checkbox" id="check">
+                <label for="check">MPV<span style="color: grey;font-size: small;">(12)</sp></label><br><br>
+                <input type="checkbox" id="check">
+                <label for="check">Sedan<span style="color: grey;font-size: small;">(20)</span></label><br><br>
+                <input type="checkbox" id="check">
+                <label for="check">Coupe<span style="color: grey;font-size: small;">(15)</sp></label><br><br>
+                <input type="checkbox" id="check">
+                <label for="check">Hatchback<span style="color: grey;font-size: small;">(10)</sp></label><br><br>
+                <h6>CAPACITY</h6>  
+                <input type="checkbox" id="all" name="all">
+                <label for="all">2 Person<span style="color: grey;font-size: small;">(15)</sp></label><br><br>
+                <input type="checkbox" id="check">
+                <label for="check">4 Person<span style="color: grey;font-size: small;">(10)</b></label><br>,<br>
+                <input type="checkbox" id="check">
+                <label for="check">6 Person<span style="color: grey;font-size: small;">(12)</sp></label><br><br>
+                <input type="checkbox" id="check">
+                <label for="check">8 Person<span style="color: grey;font-size: small;">(20)</span></label><br><br>
+                <h6>PRICE</h6>
+                <input type="range" min="0" max="100" id="check">
+                <h6>Max.$200.00</h6>
+            </div>
+            <div class="r">
+                <div class="top">
+                    <div class="rect">
+                    </div>
+                    <div class="rect">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="b1">
+                        <div class="bb1"></div>
+                        <div class="bb1"></div>
+                        <div class="bb1"></div>
+                    </div>
+                    <div class="b1">
+                        <div class="bb1"></div>
+                        <div class="bb1"></div>
+                        <div class="bb1"></div>
+                </div>
+                <div class="b1">
+                    <div class="bb1"></div>
+                    <div class="bb1"></div>
+                    <div class="bb1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
